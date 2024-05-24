@@ -114,28 +114,28 @@ analytics:
 author:
   name             : "Dhruv Sharma"
   avatar           : "/assets/images/me.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "A tech guy capturing his progess!"
   location         : "College Park, MD"
   email            :
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      icon: "fas fa-envelope"
+      url: "mailto:dhruv337@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://sapienscoding.github.io/"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   # url: "https://twitter.com/"
+    - label: "Linkedin"
+      icon: "fa-brands fa-linkedin"
+      url: "https://linkedin.com/in/dhruvsh17"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/Sapienscoding"
+    - label: "Discord"
+      icon: "fab fa-discord"
+      url: "http://discordapp.com/users/616217911681613844"
 
 # Site Footer
 footer:
@@ -262,6 +262,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
