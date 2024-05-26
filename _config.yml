@@ -22,10 +22,10 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Dhruv Sharma"
 description              : "A passionate roboticist"
 url                      : "https://sapienscoding.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : #''
 repository               : "Sapienscoding/Sapienscoding.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+# teaser                   : "/assets/images/cover.gif"
+logo                     : "assets/images/C.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -137,6 +137,10 @@ author:
       icon: "fab fa-discord"
       url: "http://discordapp.com/users/616217911681613844"
 
+#site header
+header:
+ overlay_image: "assets/images/cover.gif"
+
 # Site Footer
 footer:
   links:
@@ -165,8 +169,6 @@ include:
   - .htaccess
   - _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
   - vendor
   - .asset-cache
   - .bundle
@@ -184,8 +186,6 @@ exclude:
   - LICENSE
   - log
   - node_modules
-  - package.json
-  - package-lock.json
   - Rakefile
   - README
   - tmp
@@ -230,8 +230,8 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
 
 # Pagination with jekyll-paginate-v2
 # See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
@@ -323,3 +323,11 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope: 
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+  
