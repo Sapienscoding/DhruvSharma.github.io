@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Resume"
-    url: /about/resume/
+    url: /assets/files/Resume.pdf
   - title: "Projects"
     url: /projects/
   - title: "Experience"
