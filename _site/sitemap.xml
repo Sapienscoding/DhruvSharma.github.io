@@ -7,6 +7,9 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/project/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/assets/files/Resume.pdf</loc>
 <lastmod>2024-05-07T01:19:33-04:00</lastmod>
 </url>
